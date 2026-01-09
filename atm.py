@@ -52,17 +52,17 @@ while True:
       if option=='check_balance':
         atm.check_balance() 
       elif option=='Deposit':
-          amount=int(input("enter your amount: "))
+          amount=float(input("enter your amount: "))
           atm.Deposit(amount)
       elif option=='withdraw': 
-         amount=int(input("Enter your amount: "))
+         amount=float(input("Enter your amount: "))
          atm.withdraw(amount)
       elif option=='pin_change':
          new_pin=int(input("enter your new pin: "))
          choose=input("yes or no:")
          atm.pin_change()
       elif option=='transfer':
-         acc=input("Enter your acc no: ")
+         acc=int(input("Enter your acc no: "))
          ifsc=input("Enter your IFSC code: ")
          bank=input("you bank name ? ")
          amount=float(input("Enter your amount: "))
@@ -78,4 +78,5 @@ while True:
   else:
    print("try agin later")
    
+
   

@@ -1,0 +1,8 @@
+FastAPI
+pandas
+numpy
+scikit-learn
+torch
+transformers
+streamlit
+requests
